@@ -1,6 +1,7 @@
 # Financial Data and Backtesting
 backtrader           # For backtesting financial strategies
 yfinance             # To download financial market data
+finvizfinance        # To download financial news data
 
 # Data Science Libraries
 numpy                    # For numerical computations
@@ -8,6 +9,7 @@ pandas                   # For data manipulation and analysis
 plotly                   # For data visualization
 matplotlib               # For data visualization
 datasets                 # Hugging Face datasets for easy access to datasets
+datetime                 # For time format
 
 # Modeling Library
 scipy                    # For scientific computing

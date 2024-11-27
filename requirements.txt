@@ -1,38 +1,42 @@
-# Core FastAPI dependencies
+# FastAPI and Related Dependencies
 fastapi[all]         # Includes uvicorn, pydantic, starlette, and optional extras
 
-# AWS integration
-boto3                # AWS SDK for Python to interact with AWS services
-
-# Environment variable management
-python-dotenv        # For loading environment variables from .env files
-
-# Data analysis and machine learning
+# Machine Learning and Data Science Libraries
 numpy                # For numerical computations
 pandas               # For data manipulation and analysis
 scipy                # For scientific computing
-plotly               # For data visualization
-streamlit            # For data dashboarding
 statsmodels          # For SARIMAX and other statistical models
+scikit-learn         # For classical machine learning algorithms
+torch                # PyTorch, used for reinforcement learning and deep learning models
 backtrader           # For backtesting financial strategies
 yfinance             # To download financial market data
+plotly               # For data visualization
 
-# Machine learning and AI tools
-torch                # PyTorch, used for reinforcement learning and deep learning models
-scikit-learn         # For classical machine learning algorithms
-
-# NLP tools (for LLM integration)
+# Natural Language Processing (NLP) and AI
 transformers         # Hugging Face's Transformers library for pre-trained language models
+openai               # For interacting with OpenAI's API
+tiktoken             # Tokenization library for OpenAI models
+langchain            # LangChain core library
+langchain-openai     # LangChain support for OpenAI models
+langchain_experimental # LangChain experimental components
+langchain_chroma     # LangChain with Chroma for document storage
+langchain[docarray]  # LangChain with docarray support for embeddings
 
-# ChromaDB dependencies
+# Vector Search and Storage
 chromadb             # Vector database for storing and querying embeddings
+faiss-cpu            # FAISS library for efficient similarity search (CPU version)
 
-# LangChain dependencies
-langchain            # For creating applications with LLMs
+# AWS and Environment Management
+boto3                # AWS SDK for Python to interact with AWS services
+python-dotenv        # For loading environment variables from .env files
 
-# MISC
+# APIs and HTTP Requests
 requests             # For making HTTP requests (useful in general for APIs)
+
+# Data Dashboard and User Interface
+streamlit            # For creating interactive dashboards
+gradio               # For creating interactive UIs for machine learning models
+
+# Serialization and Miscellaneous
 joblib               # For serializing models
-
-
-
+datasets            # Hugging Face datasets for easy access to datasets

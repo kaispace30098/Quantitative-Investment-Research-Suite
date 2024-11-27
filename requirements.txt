@@ -1,42 +1,47 @@
 # FastAPI and Related Dependencies
-fastapi[all]         # Includes uvicorn, pydantic, starlette, and optional extras
+fastapi[all]             # Includes uvicorn, pydantic, starlette, and optional extras
+uvicorn                  # ASGI server for FastAPI
 
 # Machine Learning and Data Science Libraries
-numpy                # For numerical computations
-pandas               # For data manipulation and analysis
-scipy                # For scientific computing
-statsmodels          # For SARIMAX and other statistical models
-scikit-learn         # For classical machine learning algorithms
-torch                # PyTorch, used for reinforcement learning and deep learning models
-backtrader           # For backtesting financial strategies
-yfinance             # To download financial market data
-plotly               # For data visualization
+numpy                    # For numerical computations
+pandas                   # For data manipulation and analysis
+scipy                    # For scientific computing
+statsmodels              # For SARIMAX and other statistical models
+scikit-learn             # For classical machine learning algorithms
+torch                    # PyTorch, used for reinforcement learning and deep learning models
+xgboost                  # For boosted tree models
+backtrader               # For backtesting financial strategies
+yfinance                 # To download financial market data
+plotly                   # For data visualization
+joblib                   # For serializing models
+datasets                 # Hugging Face datasets for easy access to datasets
 
 # Natural Language Processing (NLP) and AI
-transformers         # Hugging Face's Transformers library for pre-trained language models
-openai               # For interacting with OpenAI's API
-tiktoken             # Tokenization library for OpenAI models
-langchain            # LangChain core library
-langchain-openai     # LangChain support for OpenAI models
-langchain_experimental # LangChain experimental components
-langchain_chroma     # LangChain with Chroma for document storage
-langchain[docarray]  # LangChain with docarray support for embeddings
+transformers             # Hugging Face's Transformers library for pre-trained language models
+openai                   # For interacting with OpenAI's API
+tiktoken                 # Tokenization library for OpenAI models
+
+# LangChain and LLM Integration
+langchain                # LangChain core library
+langchain-openai         # LangChain support for OpenAI models
+langchain_experimental   # LangChain experimental components
+langchain_chroma         # LangChain with Chroma for document storage
+langchain[docarray]      # LangChain with docarray support for embeddings
 
 # Vector Search and Storage
-chromadb             # Vector database for storing and querying embeddings
-faiss-cpu            # FAISS library for efficient similarity search (CPU version)
+chromadb                 # Vector database for storing and querying embeddings
+faiss-cpu                # FAISS library for efficient similarity search (CPU version)
 
 # AWS and Environment Management
-boto3                # AWS SDK for Python to interact with AWS services
-python-dotenv        # For loading environment variables from .env files
+boto3                    # AWS SDK for Python to interact with AWS services
+python-dotenv            # For loading environment variables from .env files
 
 # APIs and HTTP Requests
-requests             # For making HTTP requests (useful in general for APIs)
+requests                 # For making HTTP requests (useful in general for APIs)
 
 # Data Dashboard and User Interface
-streamlit            # For creating interactive dashboards
-gradio               # For creating interactive UIs for machine learning models
+streamlit                # For creating interactive dashboards
+gradio                   # For creating interactive UIs for machine learning models
 
 # Serialization and Miscellaneous
-joblib               # For serializing models
-datasets            # Hugging Face datasets for easy access to datasets
+tqdm                     # For progress bars in loops

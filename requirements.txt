@@ -1,25 +1,24 @@
-# FastAPI and Related Dependencies
-fastapi[all]             # Includes uvicorn, pydantic, starlette, and optional extras
-uvicorn                  # ASGI server for FastAPI
+# Financial Data and Backtesting
+backtrader           # For backtesting financial strategies
+yfinance             # To download financial market data
 
-# Machine Learning and Data Science Libraries
+# Data Science Libraries
 numpy                    # For numerical computations
 pandas                   # For data manipulation and analysis
+plotly                   # For data visualization
+matplotlib               # For data visualization
+datasets                 # Hugging Face datasets for easy access to datasets
+
+# Modeling Library
 scipy                    # For scientific computing
+transformers             # Hugging Face's Transformers library for pre-trained language models
+openai                   # For interacting with OpenAI's API
 statsmodels              # For SARIMAX and other statistical models
 scikit-learn             # For classical machine learning algorithms
 torch                    # PyTorch, used for reinforcement learning and deep learning models
 xgboost                  # For boosted tree models
-backtrader               # For backtesting financial strategies
-yfinance                 # To download financial market data
-plotly                   # For data visualization
-joblib                   # For serializing models
-datasets                 # Hugging Face datasets for easy access to datasets
-
-# Natural Language Processing (NLP) and AI
-transformers             # Hugging Face's Transformers library for pre-trained language models
-openai                   # For interacting with OpenAI's API
 tiktoken                 # Tokenization library for OpenAI models
+joblib                   # For serializing models
 
 # LangChain and LLM Integration
 langchain                # LangChain core library
@@ -32,16 +31,16 @@ langchain[docarray]      # LangChain with docarray support for embeddings
 chromadb                 # Vector database for storing and querying embeddings
 faiss-cpu                # FAISS library for efficient similarity search (CPU version)
 
-# AWS and Environment Management
-boto3                    # AWS SDK for Python to interact with AWS services
-python-dotenv            # For loading environment variables from .env files
-
-# APIs and HTTP Requests
-requests                 # For making HTTP requests (useful in general for APIs)
-
 # Data Dashboard and User Interface
 streamlit                # For creating interactive dashboards
 gradio                   # For creating interactive UIs for machine learning models
 
-# Serialization and Miscellaneous
+# Application Deployment 
+boto3                    # AWS SDK for Python to interact with AWS services
+python-dotenv            # For loading environment variables from .env files
+requests                 # For making HTTP requests (useful in general for APIs)
+fastapi[all]             # Includes uvicorn, pydantic, starlette, and optional extras
+uvicorn                  # ASGI server for FastAPI
+
+# Miscellaneous
 tqdm                     # For progress bars in loops

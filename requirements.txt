@@ -1,0 +1,38 @@
+# Core FastAPI dependencies
+fastapi[all]         # Includes uvicorn, pydantic, starlette, and optional extras
+
+# AWS integration
+boto3                # AWS SDK for Python to interact with AWS services
+
+# Environment variable management
+python-dotenv        # For loading environment variables from .env files
+
+# Data analysis and machine learning
+numpy                # For numerical computations
+pandas               # For data manipulation and analysis
+scipy                # For scientific computing
+plotly               # For data visualization
+streamlit            # For data dashboarding
+statsmodels          # For SARIMAX and other statistical models
+backtrader           # For backtesting financial strategies
+yfinance             # To download financial market data
+
+# Machine learning and AI tools
+torch                # PyTorch, used for reinforcement learning and deep learning models
+scikit-learn         # For classical machine learning algorithms
+
+# NLP tools (for LLM integration)
+transformers         # Hugging Face's Transformers library for pre-trained language models
+
+# ChromaDB dependencies
+chromadb             # Vector database for storing and querying embeddings
+
+# LangChain dependencies
+langchain            # For creating applications with LLMs
+
+# MISC
+requests             # For making HTTP requests (useful in general for APIs)
+joblib               # For serializing models
+
+
+

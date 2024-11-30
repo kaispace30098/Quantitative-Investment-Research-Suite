@@ -25,8 +25,8 @@ The repository offers a fully integrated pipeline for data-driven investment str
 
 ### 4. **Algorithmic Trading**
 - **Technique**: Reinforcement learning (e.g., Q-Learning).  
-- **Use Case**: Design automated trading strategies based on forecasting outputs and real-time portfolio states.  
-- **Output**: Dynamic buy/sell/hold signals.
+- **Use Case**: Design automated trading strategies based on forecasting outputs and real-time portfolio states.(State Representation: Includes discretized return bins and simplified forecast signals (e.g., price up, down, or flat).Action Space: Limited to basic actions: buy, sell, hold—avoiding percentage-based complexities if less compute needed.)
+- **Output**: Dynamic buy/sell/hold signals based on learned trading policies.
 
 ### 5. **LLM RAG Dashboard**
 - **Functionality**: A retrieval-augmented generation (RAG) dashboard powered by large language models.  

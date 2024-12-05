@@ -19,9 +19,9 @@ The repository offers a fully integrated pipeline for data-driven investment str
 - **Output**: Optimal asset allocation weights.
 
 ### 3. **Forecasting**
-- **Model**: SARIMAX, N-BEATS, and Informer and with Exogenous features (e.g., compressed news sentiment, macroeconomic indicators).  
-- **Purpose**: Predict short-term price trends and market dynamics.  
-- **Output**: Forecasted price changes or returns.
+- **Model**: SARIMAX, N-BEATS, Informer, and Hmm with Exogenous features (e.g., compressed news sentiment, macroeconomic indicators)
+- **Purpose**: Predict short-term price trends and market dynamics, and detect market regimes
+- **Output**: Forecasted price changes or returns, and detected market regimes
 
 ### 4. **Algorithmic Trading**
 - **Technique**: Reinforcement learning (e.g., Q-Learning).  

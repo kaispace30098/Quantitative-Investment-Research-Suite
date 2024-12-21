@@ -40,4 +40,4 @@ Alpaca Integration: Once a trading signal is generated, it is transmitted to the
 ### Steps
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/QuantitativeInvestmentResearchSuite.git
+   git clone https://github.com/kaispace30098/QuantitativeInvestmentResearchSuite.git

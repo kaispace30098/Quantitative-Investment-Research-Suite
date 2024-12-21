@@ -1,3 +1,8 @@
 .env
 kais_notes.txt
 .myenv
+.myenv/
+*.dll
+*.lib
+
+

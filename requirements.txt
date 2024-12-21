@@ -2,6 +2,9 @@
 backtrader           # For backtesting financial strategies
 yfinance             # To download financial market data
 finvizfinance        # To download financial news data
+alpaca-trade-api     # Trading portal
+
+
 
 # Data Science Libraries
 numpy                    # For numerical computations
